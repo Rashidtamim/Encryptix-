@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #bbb9b9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; 
+   
+}
+
+
+ header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+#hero {
+    background: url('data:image/jpeg;base64,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') no-repeat center center/cover; 
+    color: #5a5656;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 50px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+#hero button {
+    background: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#features .feature {
+    margin: 20px 0;
+}
+
+#about {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+}
+
+#contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    background: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
